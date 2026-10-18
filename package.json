@@ -24,5 +24,9 @@
     "provenance",
     "credential-blind"
   ],
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/internet-archive-services-section.git"
+  }
 }
