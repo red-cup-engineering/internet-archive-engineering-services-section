@@ -1,4 +1,4 @@
-# @red-cup-engineering/internet-archive-engineering-services-section
+# @red-cup-engineering/internet-archive-services-section
 
 <!-- 561-group-standards:badges:start -->
 [![Red Cup Engineering](https://img.shields.io/badge/561%20Group-Red%20Cup%20Engineering-c0392b)](https://github.com/red-cup-engineering)
@@ -82,7 +82,7 @@ than treating the mirror as a separate authority.
 ## Usage
 
 ```js
-import { earliestCapture, savePageNow, status, witness } from "@red-cup-engineering/internet-archive-engineering-services-section";
+import { earliestCapture, savePageNow, status, witness } from "@red-cup-engineering/internet-archive-services-section";
 
 const earliest = await earliestCapture("https://example.com/essay", { fetch });
 const provenance = await witness("https://example.com/essay", { fetch });
