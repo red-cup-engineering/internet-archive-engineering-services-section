@@ -1,5 +1,5 @@
 {
-  "name": "@red-cup-engineering/internet-archive-engineering-services-section",
+  "name": "@red-cup-engineering/internet-archive-services-section",
   "version": "0.1.0",
   "type": "module",
   "description": "Credential-blind Wayback capture lookup and Save Page Now protocol mechanics.",
