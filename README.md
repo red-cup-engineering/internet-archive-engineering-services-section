@@ -109,3 +109,7 @@ save script makes the anonymous request.
 
 `node --test test/*.test.mjs` uses only faked fetch capabilities and
 documentation-derived fixtures; it performs no network requests.
+
+## Acceptance
+
+Run `npm test` for the source suite. See the [API reference](docs/API.md) and [runnable consumer example](examples/quickstart.test.mjs).

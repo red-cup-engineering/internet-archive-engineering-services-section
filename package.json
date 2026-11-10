@@ -8,12 +8,15 @@
   },
   "files": [
     "src",
-    "scripts"
+    "scripts",
+    "docs/API.md",
+    "examples/quickstart.test.mjs"
   ],
   "scripts": {
     "check": "node --check src/internet-archive.mjs && node --check scripts/earliest-capture.mjs && node --check scripts/save-page-now.mjs && node --check test/internet-archive.test.mjs",
     "test": "node --test test/*.test.mjs",
-    "verify": "npm run check && npm test"
+    "verify": "npm run check && npm test",
+    "test:consumer": "node --test examples/quickstart.test.mjs"
   },
   "engines": {
     "node": ">=22.18"
