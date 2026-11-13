@@ -9,7 +9,6 @@
   "files": [
     "src",
     "scripts",
-    "docs/API.md",
     "examples/quickstart.test.mjs"
   ],
   "scripts": {
