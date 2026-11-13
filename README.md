@@ -11,7 +11,7 @@ Credential-blind Wayback capture lookup and Save Page Now protocol mechanics.
 
 Credential-blind Internet Archive Wayback client for asking when a URL was
 first captured and asking the Archive to capture it now. It is seated beside
-`buttondown-services-section` under `web2-platform-services-section`, where the
+`buttondown-engineering-services-section` under `web2-platform-services-section`, where the
 external web platform capability already belongs.
 
 This section exists to support the provenance rule in “Republishing dated work
