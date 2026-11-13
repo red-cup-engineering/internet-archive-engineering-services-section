@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { captureDate, captureUrl } from "@red-cup-engineering/internet-archive-services-section";
+import { captureDate, captureUrl } from "@red-cup-engineering/internet-archive-engineering-services-section";
 
 test("INTERNET-ARCHIVE-SERVICES-SECTION-QUICKSTART", () => {
   assert.equal(captureUrl("20210202030405", "https://example.com/"), "https://web.archive.org/web/20210202030405/https://example.com/");

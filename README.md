@@ -84,7 +84,7 @@ than treating the mirror as a separate authority.
 ## Usage
 
 ```js
-import { earliestCapture, savePageNow, status, witness } from "@red-cup-engineering/internet-archive-services-section";
+import { earliestCapture, savePageNow, status, witness } from "@red-cup-engineering/internet-archive-engineering-services-section";
 
 const earliest = await earliestCapture("https://example.com/essay", { fetch });
 const provenance = await witness("https://example.com/essay", { fetch });
