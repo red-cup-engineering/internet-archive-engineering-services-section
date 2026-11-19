@@ -10,26 +10,9 @@
     "src",
     "scripts"
   ],
-  "scripts": {
-    "check": "node --check src/internet-archive.mjs && node --check scripts/earliest-capture.mjs && node --check scripts/save-page-now.mjs",
-    "verify": "npm run check"
-  },
-  "engines": {
-    "node": ">=22.18"
-  },
-  "keywords": [
-    "internet-archive",
-    "wayback-machine",
-    "provenance",
-    "credential-blind"
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/red-cup-engineering/internet-archive-engineering-services-section.git"
-  },
-  "funding": {
-    "type": "individual",
-    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
   }
 }
