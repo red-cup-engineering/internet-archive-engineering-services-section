@@ -1,0 +1,18 @@
+{
+  "name": "@red-cup-engineering/internet-archive-engineering-services-section",
+  "version": "0.1.2-dev.0",
+  "type": "module",
+  "description": "Credential-blind Wayback capture lookup and Save Page Now protocol mechanics.",
+  "exports": {
+    ".": "./src/internet-archive.mjs"
+  },
+  "files": [
+    "src",
+    "scripts"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/internet-archive-engineering-services-section.git"
+  }
+}
